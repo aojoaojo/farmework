@@ -7,8 +7,8 @@ export function Layout() {
         <div>
             <nav className="navbar navbar-expand-lg bg-verde-4 p-0">
                 <div className="container-fluid">
-                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <a className="navbar-brand" href="/">
+                    <Link to="/farmework/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <a className="navbar-brand" href="#">
                             <div className='d-flex flex-column justify-content-center'>
                                 <img src={logo} alt="logo" height={80} />
                                 <p className='m-0'>Farmework</p>
@@ -21,12 +21,12 @@ export function Layout() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to="/sobre" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                    <a className="nav-link active" aria-current="page" href="/sobre">Sobre Nós</a>
+                                <Link to="/farmework/sobre" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    <a className="nav-link active" aria-current="page" href="#">Sobre Nós</a>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/servicos" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <Link to="/farmework/servicos" style={{ textDecoration: 'none', color: 'inherit' }}>
                                     <a className="nav-link" href="#">Nossos Serviços</a>
                                 </Link>
                             </li>
@@ -36,29 +36,29 @@ export function Layout() {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <Link to="/farmework/" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <a className="dropdown-item" href="#">Action</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <Link to="/farmework/" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <a className="dropdown-item" href="#">Action</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <Link to="/farmework/" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <a className="dropdown-item" href="#">Action</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <Link to="/farmework/" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <a className="dropdown-item" href="#">Action</a>
                                         </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link to="/contato" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <Link to="/farmework/contato" style={{ textDecoration: 'none', color: 'inherit' }}>
                                     <a className="nav-link" href="#">Contato</a>
                                 </Link>
                             </li>
