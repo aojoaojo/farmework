@@ -2,7 +2,7 @@
   "name": "farmework",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://aojoaojo.github.io/farmework",
+  "homepage": "https://aojoaojo.github.io/farmework/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

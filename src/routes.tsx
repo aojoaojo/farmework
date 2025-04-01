@@ -8,10 +8,10 @@ export const router = createBrowserRouter([
         path: '/',
         element: <Layout />,
         children: [
-            { path: '/', element: <Home /> },
-            { path: '/sobre', element: <Sobre /> },
-            { path: '/servicos', element: <div>Serviços</div> },
-            { path: '/contato', element: <div>Contato</div> },
+            { path: '/farmework/', element: <Home /> },
+            { path: '/farmework/sobre', element: <Sobre /> },
+            { path: '/farmework/servicos', element: <div>Serviços</div> },
+            { path: '/farmework/contato', element: <div>Contato</div> },
         ]
     },
 ]);
