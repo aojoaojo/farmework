@@ -5,9 +5,9 @@ import '../global.css'
 export function Layout() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-verde-4 p-0">
-                <div className="container-fluid">
-                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <nav className="navbar navbar-expand-lg bg-verde-4 p-0 m-0">
+                <div className="container-fluid d-flex align-items-center p-3">
+                    <Link className='navbar-brand d-flex justify-content-center align-items-center' to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <a className="navbar-brand" href="#">
                             <div className='d-flex flex-column justify-content-center'>
                                 <img src={logo} alt="logo" height={80} />
@@ -30,7 +30,7 @@ export function Layout() {
                                     <a className="nav-link" href="#">Nossos Serviços</a>
                                 </Link>
                             </li>
-                            <li className="nav-item dropdown">
+                            {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
                                 </a>
@@ -61,7 +61,7 @@ export function Layout() {
                                 <Link to="/contato" style={{ textDecoration: 'none', color: 'inherit' }}>
                                     <a className="nav-link" href="#">Contato</a>
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
